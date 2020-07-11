@@ -15,3 +15,12 @@ __NCP_USW_115k2_S2_F768_676.gbl__
 * S2 - Series 2 (ie EFR32MG21A020).
 * F768 - Flash size
 * 676 - EmberZNet Version
+
+__BTL_STD_S1_256-COM_PB14-PB15-PA0.s37__
+* BTL - Bootloader
+* STD - Standalone
+* S1 - Series 1 (eg EFR32MG1x)
+* 256 - 256k Flash
+* COM - Combined (necessary for Series 1)
+* PB14-PB15 - TXD and RXD Port
+* PA0 - Bootloader GPIO Activation
