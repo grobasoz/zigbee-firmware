@@ -29,8 +29,19 @@ __NCP_USW_115K2_S1_F256_676_PB14-PB15.s37__
 * NCP - Silabs NCP
 * USW - Uart interface, Software Flow Control 
 * 115k2 - Baud Rate
-* S1 - Series 1 (ie EFR32MG1x).
+* S1 - Series 1 (ie EFR32MG1x)
 * F256 - Flash size = 256k
-* 676 - EmberZNet Version
+* 676 - EmberZNet Version (EZSP V8!)
 * PB14-PB15 - TX, RX
 * NB Address Table Size = 8
+
+__NCP_USW_115K2_S1_F256_664_PB14-PB15.s37__
+* NCP - Silabs NCP
+* USW - Uart interface, Software Flow Control 
+* 115k2 - Baud Rate
+* S1 - Series 1 (ie EFR32MG1x).
+* F256 - Flash size = 256k
+* 664 - EmberZNet Version (EZSP V7!)
+* PB14-PB15 - TX, RX
+* NB Address Table Size = 8
+
