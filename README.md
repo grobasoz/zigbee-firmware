@@ -2,6 +2,13 @@
 ## ZigBee Development Firmware
 
 ## Versions
+__BTL_STD_S2_768__
+* BTL - Bootloader
+* STD - Standalone
+* S2 - Series 2 (eg EFR32MG2x)
+* 768 - 768k Flash
+* NB Sonoff Zigbee Bridge Version
+
 __NCP_UHW_GFR8LE_676.gbl__
 * NCP - Silabs NCP
 * UHW - Uart interface, Hardware Flow Control 
