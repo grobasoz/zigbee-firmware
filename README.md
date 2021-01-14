@@ -71,3 +71,17 @@ __NCP_USW_115K2_S1_F256_690_PB14-PB15-PA0.xxx__
 * 690 - EmberZNet Version (EZSP V9!)
 * PB14-PB15-PA0 - TX=PB14, RX=PB15, Bootload = PA0
 * NB Route Table Size = 32, Address Table Size = 100
+
+__NCP_USW_115k2_ZBBridge_678.gbl__
+* NCP - Silabs NCP
+* USW - Uart interface, Software Flow Control 
+* 115k2 - Baud Rate
+* ZBBridge - Sonoff ZBBridge
+* 678 - EmberZNet Version
+
+__NCP_USW_115k2_ZBBridge_690.gbl__
+* NCP - Silabs NCP
+* USW - Uart interface, Software Flow Control 
+* 115k2 - Baud Rate
+* ZBBridge - Sonoff ZBBridge
+* 690 - EmberZNet Version
