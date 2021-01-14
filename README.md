@@ -52,13 +52,13 @@ __NCP_USW_115K2_S1_F256_664_PB14-PB15.s37__
 * PB14-PB15 - TX, RX
 * NB Address Table Size = 8
 
-__NCP_USW_115K2_S1_F256_690_PB14-PB15.s37__
+__NCP_USW_115K2_S1_F256_690_P14-P15-P0.xxx__
 * NCP - Silabs NCP
 * USW - Uart interface, Software Flow Control 
 * 115k2 - Baud Rate
 * S1 - Series 1 (ie EFR32MG1x).
 * F256 - Flash size = 256k
 * 690 - EmberZNet Version (EZSP V9!)
-* PB14-PB15 - TX, RX (PA0-Bootload)
+* P14-P15-P0 - TX=PB14, RX=PB15, Bootload = PA0
 * NB Route Table Size = 100
 
