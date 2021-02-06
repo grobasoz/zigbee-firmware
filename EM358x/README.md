@@ -1,6 +1,8 @@
 # zigbee-firmware
 ## ZigBee Development Firmware
 
+_Note! These work with devices with flash memory of 512kB only._
+  
 ## EM358x Versions
 __NCP_USW_EM358x_678_57k6__
 * NCP - Silabs NCP
