@@ -18,3 +18,6 @@ __NCP_USW_EM3585-LR_678-115k2__
 * EM3585 - Long Range EM3585 Dev0680 Based Device PB1=TXD, PB2=RXD
 * 678 - EmberZNet Version (EZSP V8!)
 * 115k2 - Baud Rate
+
+__BTL_STD_EM3585.s37__
+* Standalone uart xmodem bootloader for EM3585
