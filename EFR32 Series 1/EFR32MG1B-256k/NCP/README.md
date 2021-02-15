@@ -12,6 +12,17 @@ __NCP_USW_EFR32MG1B-256_678_PA0-PA1-PB11.ebl__
 * PA0-PA1 - TX, RX
 * PB11 = Bootloader Entry GPIO
 
+__NCP_UHW_MG1B232_678_PA0-PA1-PB11_PA5-PA4.ebl__
+* NCP - Silabs NCP
+* UHW - Uart interface, Hardware Flow Control 
+* S1 - Series 1 (ie EFR32MG1x)
+* F256 - Flash size = 256k
+* 678 - EmberZNet Version (EZSP V8!)
+* PA0-PA1 - TX, RX
+* PB11 = Bootloader Entry GPIO
+* PA5 = CTS
+* PA4 = RTS
+  
 __Specific Settings for this folder__
 * CONFIG_APS_UNICAST_MESSAGE_COUNT:  20 
 * CONFIG_MAX_END_DEVICE_CHILDREN:    32
