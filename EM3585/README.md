@@ -27,9 +27,6 @@ __NCP_USW_EM3585_6710_PCx__
 * 6710 - EmberZNet Version (EZSP V8!)
 * PCx - PC5 or PC6 for TX Active Enable
 
-
-
-
-
+## BOOTLOADER ##
 __BTL_STD_EM3585.s37__
 * Standalone uart xmodem bootloader for EM3585
