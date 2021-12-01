@@ -15,5 +15,5 @@ __Folders containing different versions of bootloader and NCP firmware.__
 * GFR8LE
 * MG1B232
 
-* Notes
+__Notes__
 * A -> Updated to EmberZNet 6.7.10
