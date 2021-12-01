@@ -16,4 +16,4 @@ __Folders containing different versions of bootloader and NCP firmware.__
 * MG1B232
 
 __Notes__
-+ <sup>A -> Updated to EmberZNet 6.7.10
++ A -> Updated to EmberZNet 6.7.10
