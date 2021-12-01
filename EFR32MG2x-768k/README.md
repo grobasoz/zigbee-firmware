@@ -17,3 +17,10 @@ __NCP_USW_115k2_S2_F768_676.gbl__
 * F768 - Flash size
 * 676 - EmberZNet Version
 
+__NCP_USW_115k2_S2_F768_6103.gbl__
+* NCP - Silabs NCP
+* USW - Uart interface, Software Flow Control 
+* 115k2 - Baud Rate
+* S2 - Series 2 (ie EFR32MG21A020).
+* F768 - Flash size
+* 6103 - EmberZNet Version (6.10.3)
