@@ -7,12 +7,13 @@ __Folders containing different versions of bootloader and NCP firmware.__
 
 * EFR32 Series 1   
 * EFR32MG2x-768k  
-* EM357     1
+* EM357     <sup>A
 * EM3581
-* EM3585    1
+* EM3585    <sup>A
 * EM3587
 * EM3588
 * GFR8LE
 * MG1B232
 
-* 1 -> Updated to EmberZNet 6.7.10
+* Notes
+* A -> Updated to EmberZNet 6.7.10
