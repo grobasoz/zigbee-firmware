@@ -1,4 +1,11 @@
 # zigbee-firmware
+
+__Please consider making a small PayPal donation as a token of appreciation if you use this firmware in your products__
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/GaryRobas)
+
+__With thanks :) grobasoz__
+
 ## ZigBee Development Firmware
 
 ## Versions
