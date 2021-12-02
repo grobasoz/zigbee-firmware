@@ -20,12 +20,12 @@ __NCP_USW_EM3585-LR_678-115k2__
 * 115k2 - Baud Rate
 
 ## EM3585 Long Range Versions - EmberZNet 6.7.10 - 115K2 Baud
-__NCP_USW_EM3585_6710_PCx__
+__NCP_USW_EM3585_6710-LR__
 * NCP - Silabs NCP
 * USW - Uart interface, Software Flow Control 
 * EM3585 - Long Range EM3585 Dev0680 Based Device PB1=TXD, PB2=RXD
 * 6710 - EmberZNet Version (EZSP V8!)
-* PCx - PC5 or PC6 for TX Active Enable
+* LR - Long Range (PC5=TX Active, PC6=nTX Active)
 
 ## BOOTLOADER ##
 __BTL_STD_EM3585.s37__
