@@ -18,7 +18,7 @@ __Folders containing different versions of bootloader and NCP firmware.__
 * EM3581
 * EM3585    <sup>A
 * EM3587    <sup>A
-* EM3588
+* EM3588    <sup>A
 * GFR8LE
 * MG1B232
 * Sonoff-ZBBridge <sup>B
