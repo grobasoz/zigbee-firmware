@@ -14,6 +14,7 @@ __Folders containing different versions of bootloader and NCP firmware.__
 
 * EFR32 Series 1   
 * EFR32MG2x-768k <sup>B  
+* EFR32MG22 <sup>B
 * EM357     <sup>A
 * EM3581
 * EM3585    <sup>A
