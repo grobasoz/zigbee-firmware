@@ -30,3 +30,11 @@ __NCP_USW_EM3585_6710-LR__
 ## BOOTLOADER ##
 __BTL_STD_EM3585.s37__
 * Standalone uart xmodem bootloader for EM3585
+ 
+## TELEGESIS ##
+__ETRX3585_R309C.s37__
+* ETRX3585 - Telegesis AT Command Set firmware 
+* R309C - Version 3.0.9 C
+
+__Telegesis R309 Commands__
+* AT Command Set

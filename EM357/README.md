@@ -27,3 +27,12 @@ __NCP_USW_EM357_6710_PCx__
 ## BOOTLOADER ##
 __BTL_STD_EM357.s37__
 * Standalone uart xmodem bootloader for EM357
+
+ 
+## TELEGESIS ##
+__ETRX357_R309C.ebl__
+* ETRX357 - Telegesis AT Command Set firmware 
+* R309C - Version 3.0.9 C
+ 
+__Telegesis R309 Commands__
+* AT Command Set
