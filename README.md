@@ -33,3 +33,7 @@ __Folders containing different versions of bootloader and NCP firmware.__
 __Notes__
 + A -> Updated to EmberZNet 6.7.10
 + B -> Updated to EmberZNet 6.10.3
+
+__Folders containing legacy firmware for older Ember/Silabs chips.__
+* EM250
+  
