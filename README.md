@@ -12,9 +12,18 @@ or...
 
 __With thanks :) grobasoz__
 
-## ZigBee Development Firmware
+## Zigbee Development Firmware
 
-## Versions
+### Usage
+
+* Make sure device drivers for USB-to-UART bridge/conveter is already installed if required.
+* Backup NVRAM with [bellows CLI tools](https://github.com/zigpy/bellows) (Python 3 script).
+* Install [Elelabs Firmware Update Utility](https://github.com/Elelabs/elelabs-zigbee-ezsp-utility) (Python 3 script).
+  * Can optionally be used it via [walthowd's Docker image environment](https://github.com/walthowd/husbzb-firmware/).
+* Download correct firmware image for your chip.
+* Use command `python Elelabs_EzspFwUtility.py flash -p /dev/select/correct/tty-device -f 'path/to/firmware.gbl'`
+
+### Versions
 
 __Folders containing different versions of bootloader and NCP firmware.__
 
