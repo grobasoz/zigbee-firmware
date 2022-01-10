@@ -17,6 +17,7 @@ __With thanks :) grobasoz__
 ### Usage
 
 * Make sure device drivers for USB-to-UART bridge/conveter is already installed if required.
+* Stop any application/service/integration that is connected to the serial port of the adapter.
 * Backup NVRAM with [bellows CLI tools](https://github.com/zigpy/bellows) (Python 3 script).
 * Install [Elelabs Firmware Update Utility](https://github.com/Elelabs/elelabs-zigbee-ezsp-utility) (Python 3 script).
   * Can optionally be used it via [walthowd's Docker image environment](https://github.com/walthowd/husbzb-firmware/).
