@@ -25,4 +25,4 @@ __MpZ3TcCustomTcHost.exe__
 * Host - Host for NCP
 * NB
   * Cygwin 64
-  * Windows 10 with included files 
+  * Windows 10 with included dll files 
