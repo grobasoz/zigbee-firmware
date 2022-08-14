@@ -1,17 +1,5 @@
 # zigbee-firmware
 
-__Please consider making a small donation as a token of appreciation if you use this firmware in your products...__
-
-PayPal 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/GaryRobas)
-
-or...
-
-<a href="https://buymeacoffee.com/grobasoz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-
-__With thanks :) grobasoz__
-
 ## Zigbee Development Firmware
 
 ### Usage
