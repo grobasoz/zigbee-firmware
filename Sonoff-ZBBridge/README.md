@@ -25,9 +25,9 @@ __NCP_USW_115k2_ZBBridge_6103.gbl__
 * 6103 - EmberZNet Version (EmberZNet 6.10.3)
 
 
-__NCP_USW_115k2_ZBBridge_710.gbl__
+__NCP_USW_115k2_ZBBridge_711.gbl__
 * NCP - Silabs NCP - EZSP V9
 * USW - Uart interface, Software Flow Control 
 * 115k2 - Baud Rate
 * ZBBridge - Sonoff ZBBridge
-* 710 - EmberZNet Version (EmberZNet 7.1.0)
+* 711 - EmberZNet Version (EmberZNet 7.1.1)
