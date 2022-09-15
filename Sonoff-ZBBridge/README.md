@@ -1,6 +1,10 @@
 # zigbee-firmware
 ## ZigBee Development Firmware
 
+## Pin Assignment
+* PB0 - RXD
+* PB1 - TXD
+
 ## Sonoff ZBBridge Versions
 __NCP_USW_115k2_ZBBridge_678.gbl__
 * NCP - Silabs NCP
