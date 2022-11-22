@@ -4,13 +4,22 @@
 
 ### Usage
 
-* Make sure device drivers for USB-to-UART bridge/conveter is already installed if required.
-* Stop any application/service/integration that is connected to the serial port of the adapter.
-* Backup NVRAM with [bellows CLI tools](https://github.com/zigpy/bellows) (Python 3 script).
-* Install [Elelabs Firmware Update Utility](https://github.com/Elelabs/elelabs-zigbee-ezsp-utility) (Python 3 script).
-  * Can optionally be used it via [walthowd's Docker image environment](https://github.com/walthowd/husbzb-firmware/).
-* Download correct firmware image for your chip.
+* Make sure device drivers for your adapter's USB-to-UART bridge/converter is already installed if required.
+  * VCP (Virtual COM port) driver for your operating system like those from [Silicon Labs](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers), [FTDI Chip](https://ftdichip.com/drivers/vcp-drivers/), or [WCH (CH34x/CH91xx)](http://www.wch-ic.com/downloads/category/30.html).
+* Stop (and disable) any application/service/integration that is connected (or will try connect) to the serial port used by the adapter.
+* Backup NVRAM with [bellows CLI tools](https://github.com/zigpy/bellows) (multi platform Python based command line tool).
+* Download and install [Python](https://www.python.org/downloads/) (latest version for [Linux](https://www.python.org/downloads/source/), [macOS](https://www.python.org/downloads/macos/), or [Windows](https://www.python.org/downloads/windows/) depending on operating system).
+* Install [Elelabs Firmware Update Utility](https://github.com/Elelabs/elelabs-zigbee-ezsp-utility) (multi platform Python based command line tool).
 * Use command `python Elelabs_EzspFwUtility.py flash -p /dev/select/correct/tty-device -f 'path/to/firmware.gbl'`
+* Optionally use alternative use other flashing tools and methods for flashing firmware Silicon Labs EFR32 based adapters:
+    * [Elelabs Firmware Update Utility](https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/) .
+    * [puddly Universal Silicon Labs Flasher](https://github.com/puddly/universal-silabs-flasher) (multi platform Python based command line tool).
+    * [agners silabs-flasher - Silicon Labs Firmware flashing utility](https://github.com/agners/silabs-flasher) (multi platform Python based command line tool).
+    * [walthowd husbzb-firmware script](https://github.com/walthowd/husbzb-firmware) (community maintained multi platform bash script).
+    * [Manual Xmodem sending commands over a terminal console](https://sonoff.tech/wp-content/uploads/2022/08/SONOFF-Zigbee-3.0-USB-dongle-plus-firmware-flashing-.pdf) (any terminal application with "Xmodem(N)" send can be used).
+    * Silicon Labs [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio) included "Flash Programmer" ([instructions](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-building-and-flashing/flashing#flash-programmer)).
+    * Silabs also list a few additional programming options and methods for Silicon Labs MCU based devices (see [here](https://www.silabs.com/developers/mcu-programming-options)).
+* If needed restore NVRAM from the backup file you created with [bellows CLI tools](https://github.com/zigpy/bellows).
 
 ### Versions
 
