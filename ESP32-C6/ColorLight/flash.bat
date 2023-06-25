@@ -1,0 +1,1 @@
+esptool -p %1 --chip esp32c6 -b 460800 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 2MB --flash_freq 80m 0x0 bootloader.bin 0x8000 partition-table.bin 0x10000 color_light_bulb.bin
